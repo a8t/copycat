@@ -1,0 +1,111 @@
+html {
+  font-family: Helvetica,sans-serif;
+}
+
+p,
+li {
+  font-size:20px
+}
+
+/* Header styles */
+header {
+  background-color: #06D6A0;
+  display:flex;
+  margin:0px;
+  box-sizing:border-box
+}
+
+.title {
+  color: #FFF;
+  font-size: 18px;
+  margin: 10px auto 10px 10px;
+}
+
+.nav {
+  padding:10px;
+  margin: auto;
+  margin-right: 10px;
+}
+
+.nav li {
+  display: inline-block;
+  list-style: none;
+  margin: 5px;
+  font-size: 18px;
+}
+
+/* Main styles */
+
+main {
+  max-width: 900px;
+  margin:auto;
+}
+
+
+/* Meowcome section */
+
+.meowcome {
+  background-color: #26547C;
+  overflow: hidden;
+}
+
+.meowcome img {
+  float: left;
+  width:60%;
+  height: auto;
+}
+
+.meowcome h1 {
+  color: #FFF;
+  text-align: center;
+  font-size:36px;
+  margin: 20px auto;
+}
+
+/*Cats section*/
+
+.cats {
+  background-color:#FFD166;
+  padding:30px 20px;
+}
+
+/*Products Section*/
+
+.prod {
+  padding: 30px 20px;
+  background-color: #eee;
+}
+
+.prod img {
+  border: 3px solid black;
+  margin:5px;
+  width:30%;
+}
+
+/*last section*/
+
+.last {
+  background-color: #26547C;
+  padding: 30px 20px;
+  color:white;
+}
+
+.funval {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  padding: 0 100px;
+  color:#EF476F;
+}
+
+/*footer*/
+
+footer {
+  background-color: #06D6a0;
+  padding:1px;
+}
+
+footer p {
+  text-align:right;
+  padding-right: 15px;
+}
